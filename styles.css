@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-color: #393E46;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.home .heading{
+    color: #4ECCA3;
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+}
+.home .players{
+    display: flex;
+    flex-direction: row;
+} 
+.home .players .player{
+    color: #4ECCA3;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.home .players .player img{
+    width: 220px;
+    margin: 20px;
+}
+.home .footer{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 100px;
+    padding: 10px 20px;
+    border: 2px solid #9c060c;
+    border-radius: 16px;
+    background-color: #9c060c;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #393E46;
+    border: 2px solid white;
+}
+
+@media (max-width: 766px){
+    .home{
+        height: 90vh;
+    }
+    .home .heading{
+        font-size: 2rem;
+    }
+    .home .players .player{
+        color: #4ECCA3;
+        font-size: 10px;
+        text-align: center;
+        font-family: 'Indie Flower', cursive;
+    }
+    .home .players .player img{
+        width: 100px;
+        margin: 20px;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 5px 10px;
+        border-radius: 2px;
+        margin-bottom: 5px;
+    }
+    .footer{
+        font-size: 10px;
+    }
+}
