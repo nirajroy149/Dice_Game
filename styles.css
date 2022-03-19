@@ -38,7 +38,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-button.btn{
+.btn{
     color: white;
     font-size: 20px;
     margin-bottom: 20px;
@@ -49,14 +49,7 @@ button.btn{
     background-color: #9c060c;
     transition: all 0.3s ease;
 }
-button.btn:hover{
-    background-color: #393E46;
-    border: 2px solid white;
-}
-button.btn.active{
-    background-color: #393E46;
-    border: 2px solid white;
-}
+
 
 @media (max-width: 766px){
     .home{
@@ -81,6 +74,7 @@ button.btn.active{
         border-radius: 2px;
         margin-bottom: 5px;
     }
+    
     .footer{
         font-size: 10px;
     }

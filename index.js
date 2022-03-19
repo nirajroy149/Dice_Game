@@ -18,7 +18,7 @@ function play(){
     img_2.src = "./images/dice" + num2 + ".png";
 
     var element = $(".btn");
-    (element).addClass("active");
+    element.addClass("active");
     setTimeout(function() {
         $(element).removeClass("active");
     }, 500);
