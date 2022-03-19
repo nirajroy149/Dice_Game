@@ -17,4 +17,11 @@ function play(){
     img_1.src = "./images/dice" + num1 + ".png";
     img_2.src = "./images/dice" + num2 + ".png";
 
+    var element = $(".btn");
+    (element).addClass("active");
+    setTimeout(function() {
+        $(element).removeClass("active");
+    }, 500);
+
 }
+

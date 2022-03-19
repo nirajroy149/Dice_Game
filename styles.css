@@ -38,7 +38,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.btn{
+button.btn{
     color: white;
     font-size: 20px;
     margin-bottom: 20px;
@@ -49,8 +49,11 @@
     background-color: #9c060c;
     transition: all 0.3s ease;
 }
-
-.btn:hover{
+button.btn.hover{
+    background-color: #393E46;
+    border: 2px solid white;
+}
+button.btn.active{
     background-color: #393E46;
     border: 2px solid white;
 }
